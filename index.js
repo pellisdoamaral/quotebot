@@ -5,8 +5,16 @@ const Discord = require('discord.js');
 const fs = require('fs');
 
 
-// create a new Discord client
+// create a new Discord client (ie the bot)
 const client = new Discord.Client();
+
+
+// when the bot is ready, run this code
+// this event will only trigger one time after logging in
+client.once('ready', () => {
+    console.log('Ready!');
+});
+
 
 // dynamically set commands from the commands folder
 client.commands = new Discord.Collection();
@@ -18,14 +26,6 @@ for (const file of commandFiles) {
     // with the key as the command name and the value as the exported module
     client.commands.set(command.name, command);
 }
-
-
-// when the client is ready, run this code
-// this event will only trigger one time after logging in
-client.once('ready', () => {
-    console.log('Ready!');
-});
-
 
 // this event will trigger every time a message is sent in the server
 client.on('message', message => {
