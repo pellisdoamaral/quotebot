@@ -23,9 +23,9 @@ Use your regular Discord account to log in to <a href=https://discord.com/develo
 Once there, click on the blue button in the top right corner of the screen to make a New Application. Name it whatever you like! 
 Clicking "Create" will take you to an app page where you can add an icon, change the bot's name, add a description, and so on. 
 
-This will make a Discord Application, which is not quite a bot. We're going to add a bot to this application, which means  On the left side of the screen, you'll find a list of Settings pages. Currently you're on "General Information"; click on "Bot" to go to the bot settings page, and then click the button to Add Bot.
+At this point you've made a Discord Application, which is not quite a bot. On the left side of the screen, you'll find a list of Settings pages. Currently you're on "General Information"; click on "Bot" to go to the bot settings page, and then click the button to Add Bot.
 
-On the bot page, right under the Username field, you'll see the word "Token" and a blue text saying "Click to reveal token". A bot interacts with Discord pretty much like a human user, which means it needs to log in, and the bot token is the bot's password. We'll need this later.
+On the bot page, right under the Username field, you'll see the word "Token" and a blue text saying "Click to reveal token". A bot interacts with Discord a lot like a human user, which means it needs to log in, and the bot token is the bot's password. We'll need this later.
 
 Now that you have a live bot, you need to invite it to your server. The simplest way to do this is to generate a bot url. Click on "OAuth2" on the left side of the screen to go to the authentication page, and scroll down. You'll see a bunch of checkboxes in a box labeled "Scopes" – select the one for "bot" and ignore all the rest. Now scroll down some more, and you'll find a box of bot permissions. Check the options for "Send Messages" and "Read Message History." This bot does not need any other permissions, and in general it's good practice not to allow applications more permissions than they need to function normally. For safety reasons, you know.
 
@@ -76,9 +76,9 @@ Now enter the command "npm init -y". This creates a package.json file, which kee
 
 If you check the contents of your current folder, you'll see that there are some new files and folders there now. You shouldn't mess with them, but if your curiosity absolutely compels you to fiddle with their contents, just remember you can always toss them all out and re-install them with those two "npm" commands if anything should go wrong.
 
-Now you're ready to run the bot! All you have to do is enter "node index.js", and the bot will respond with "Ready!"
+Now you're ready to run the bot! All you have to do is enter "node index.js", and the bot will respond with "Ready!" To kill the bot, just type "ctrl+C" or close the command line. To restart the bot, just enter "node index.js" again. (If you closed the command line, then you'll have to navigate back to the bot folder before you enter "node index.js".)
 
-Open the discord server to which you've invited the bot, and send a message starting with a + to get a response from the bot! Send +help for a list of basic bot commands, or see the CommandsList file for a more detailed list. 
+Open the discord server to which you've invited the bot, and send a message starting with a + to get a response from the bot! Send +help for a list of basic bot commands, or see the CommandsList file for a more detailed list.
 
 Check out the Customizations file for a few simple ways to tailor the bot to your group chat's preferences!
 
