@@ -1,7 +1,7 @@
 # quotebot
 This is code for a Discord bot that you can run on your computer. Whenever someone says something fun in your group chat, you can chuck it at the bot and it'll be saved to a pool of quotes. The bot can then be summoned to get a random quote from the pool.
 
-
+(Note: this group chat needs to be in a server, not just a group DM. The bot likes servers.)
 
 There are three steps to getting this bot up and running:
 1) Create a Discord Bot Application and invite the bot to your server
