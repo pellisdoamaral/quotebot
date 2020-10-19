@@ -1,4 +1,4 @@
-If you look in the folder called "commands", you'll see a bunch of .js files. The title of each file is a command you can send the bot. Commands are not case-sensitive, but they don't play well punctuation – +quOTE is fine, but +quote! will not work.
+If you look in the folder called "commands", you'll see a bunch of .js files. The title of each file is a command you can send the bot. Commands are not case-sensitive, but they don't play well with punctuation – +quOTE is fine, but +quote! will not work.
 
 **quote**
 
