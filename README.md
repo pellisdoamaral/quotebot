@@ -82,6 +82,8 @@ Open the discord server to which you've invited the bot, and send a message star
 
 Check out the Customizations file for a few simple ways to tailor the bot to your group chat's preferences!
 
+**NOTE:** The bot will only be online while your computer is awake. If that's a problem, for instance if your friends are in multiple time zones or sleep schedules, then you can just host the bot on multiple computers. Just have someone else in the group follow steps 2 and 3 of these instructions, making sure to use the exact same bot token that you used. (If you do this, you'll want to look at the poolCopy command description in the CommandsList file.)
+
 
 
 ---
