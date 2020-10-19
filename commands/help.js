@@ -12,6 +12,7 @@ module.exports = {
         helpText += `\`` + config.prefix + `add @username\` *followed by text:* saves that text as a quote cited to that user\n`;
         helpText += `\`` + config.prefix + `fuckor\`: experience fuckor\n`;
         helpText += `\`` + config.prefix + `clear\`: dodge spoilers\n`;
+        helpText += `\`` + config.prefix + `cookie\`: give the bot a cookie\n`;
         
         // send help text
         return message.channel.send(helpText);
