@@ -14,7 +14,7 @@ Create a Discord Bot Application
 
 **Quick version for experienced users:**
 
-Make a Discord bot in the <a href=https://discord.com/developers/applications/>developer portal</a> and invite it to your server, with permissions to send messages and read message history.
+Make a Discord bot in the developer portal and invite it to your server, with permissions to send messages and read message history.
 
 **For those unfamiliar with making Discord bots:**
 
