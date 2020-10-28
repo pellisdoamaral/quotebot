@@ -10,7 +10,7 @@ module.exports = {
 
         // get pool from the json file where it resides (or throw an error if it's missing)
         try {
-            const pool = require('../pool.json');
+            pool = require('../pool.json');
         } catch {
             return message.channel.send("You appear to have lost the quotes file. \nMake sure it's named pool.json, and that it's in the same place as the commands folder.")
         }
