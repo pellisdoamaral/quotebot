@@ -6,7 +6,7 @@ module.exports = {
 
         namesDict = {
           'user id' : 'name'
-        };
+        }; 
 
         // get pool from the json file where it resides (or throw an error if it's missing)
         try {
