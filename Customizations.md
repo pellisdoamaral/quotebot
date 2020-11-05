@@ -4,11 +4,31 @@ There are a few easy changes you can make to the bot's code to tailor it to your
 
 By default, the bot can be summoned by any message starting with a +. You can change that to any character you want, or indeed to multiple characters, in the config.json file. Just find the "+" and replace it with whatever you want (make sure to put the new summoning character inside double quotes as well), and then restart the bot.
 
-**Error message**
+**Error messages**
 
 If someone sends the bot a message it can't parse, its default response is, "That's no way to talk to a hard-working bot." You can change this in the nope.js file in the commands folder. Just change that sentence to whatever you want your error message to be, and then restart the bot or reload the nope command.
 
 There's also a message for actual errors, which is by default "Ah heck, something's gone wrong." To change this, replace that sentence in the index.js file with whatever you want the error message to be, then restart the bot.
+
+**Rename commands**
+
+To change the name of any command, just rename that command's file in the commands folder. For instance, if you want to get quotes by sending +speak, just rename the quote.js file to speak.js. (Whatever you do, don't rename the nope.js file. Things WILL break.)
+
+You can also give a command multiple names, all of which will invoke that command. To do this, go into the code file for that particular command and find the section at the top that lists the name and description. Add a line between those two with this format:
+
+```
+aliases: ['alternate-name-1', 'alternate-name-2'],
+```
+
+Make sure that you get all the punctuation right. You can have as many alternate names as you want – just put all of them in quotation marks (either single or double will do, just be consistent), in a comma-separated list. (This is also a great workaround for the bot's inability to handle punctuation after commands.)
+
+For instance, if you want to give the quote command a few aliases, the top of the file would look like this: 
+
+```
+name: 'quote',
+    aliases: ['speak', 'speak!', 'speak,', 'speak.', 'quote!', 'quote,', 'quote.'],
+    description: 'spits out a random quote',
+```
 
 **Quote citations**
 
