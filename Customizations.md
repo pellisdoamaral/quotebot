@@ -26,7 +26,7 @@ For instance, if you want to give the quote command a few aliases, the top of th
 
 ```
 name: 'quote',
-    aliases: ['speak', 'speak!', 'speak,', 'speak.', 'quote!', 'quote,', 'quote.'],
+    aliases: ['speak', 'speak!', 'quote!'],
     description: 'spits out a random quote',
 ```
 
