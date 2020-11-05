@@ -22,12 +22,12 @@ aliases: ['alternate-name-1', 'alternate-name-2'],
 
 Make sure that you get all the punctuation right. You can have as many alternate names as you want – just put all of them in quotation marks (either single or double will do, just be consistent), in a comma-separated list. (This is also a great workaround for the bot's inability to handle punctuation after commands.)
 
-For instance, if you want to give the quote command a few aliases, the top of the file would look like this: 
+For instance, if you want to give the quote command a few aliases, the top of the quote.js file would look like this: 
 
 ```
 name: 'quote',
-    aliases: ['speak', 'speak!', 'quote!'],
-    description: 'spits out a random quote',
+aliases: ['speak', 'speak!', 'quote!'],
+description: 'spits out a random quote',
 ```
 
 **Quote citations**
