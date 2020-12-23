@@ -12,7 +12,7 @@ There's also a message for actual errors, which is by default "Ah heck, somethin
 
 **Rename commands**
 
-To change the name of any command, just rename that command's file in the commands folder. For instance, if you want to get quotes by sending +speak, just rename the quote.js file to speak.js. (Whatever you do, don't rename the nope.js file. Things WILL break.)
+To change the name of any command, just rename that command's file in the commands folder. For instance, if you want to get quotes by sending +speak, just rename the quote.js file to speak.js. (Whatever you do, though, don't rename the nope.js file. Things WILL break.)
 
 You can also give a command multiple names, all of which will invoke that command. To do this, go into the code file for that particular command and find the section at the top that lists the name and description. Add a line between those two with this format:
 
